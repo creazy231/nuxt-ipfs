@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+
+/* force scrollbar */
+html {
+  font-family: sans-serif;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  padding: 0;
+  margin: 0
+}
+
+/* ---- grid ---- */
+
+.grid {
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.artwork {
+  float: left;
+}
+
+.artwork img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.pswp__custom-caption {
+  background: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  max-width: 1000px;
+  padding: 8px 16px;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+}
+
+.hidden-caption-content {
+  display: none;
+}
+
+
+.artwork {
+  width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .artwork {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .artwork {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .artwork {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .artwork {
+    width: 16.6666666667%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .artwork {
+    width: 14.28571428571429%;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .artwork {
+    width: 12.5%
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .artwork {
+    width: 11.11111111111%
+  }
+}
+
+@media screen and (min-width: 2700px) {
+  .artwork {
+    width: 10%
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .artwork {
+    width: 9.090909090909091%
+  }
+}
+
+@media screen and (min-width: 3300px) {
+  .artwork {
+    width: 8.333333333333333%
+  }
+}
+
+@media screen and (min-width: 3600px) {
+  .artwork {
+    width: 7.692307692307692%
+  }
+}
+
+@media screen and (min-width: 3900px) {
+  .artwork {
+    width: 7.142857142857143%
+  }
+}
+
+@media screen and (min-width: 3900px) {
+  .artwork {
+    width: 6.666666666666667%
+  }
+}
+
+@media screen and (min-width: 4200px) {
+  .artwork {
+    width: 6.25%
+  }
+}
+
+@media screen and (min-width: 4500px) {
+  .artwork {
+    width: 5.882352941176471%
+  }
+}
+
+@media screen and (min-width: 4800px) {
+  .artwork {
+    width: 5.555555555555556%
+  }
+}
+
+@media screen and (min-width: 5100px) {
+  .artwork {
+    width: 5.263157894736842%
+  }
+}
+
+@media screen and (min-width: 5400px) {
+  .artwork {
+    width: 5%
+  }
+}
+
+@media screen and (min-width: 5700px) {
+  .artwork {
+    width: 4.761904761904762%
+  }
+}
+
+@media screen and (min-width: 6000px) {
+  .artwork {
+    width: 4.545454545454545%
+  }
+}
+
+@media screen and (min-width: 6300px) {
+  .artwork {
+    width: 4.347826086956522%
+  }
+}
+
+@media screen and (min-width: 6600px) {
+  .artwork {
+    width: 4.166666666666667%
+  }
+}
+
+@media screen and (min-width: 6900px) {
+  .artwork {
+    width: 4%
+  }
+}
+
+@media screen and (min-width: 7200px) {
+  .artwork {
+    width: 3.846153846153846%
+  }
+}
+
+@media screen and (min-width: 7500px) {
+  .artwork {
+    width: 3.703703703703704%
+  }
+}
+
+@media screen and (min-width: 7800px) {
+  .artwork {
+    width: 3.571428571428571%
+  }
+}
+
+@media screen and (min-width: 8100px) {
+  .artwork {
+    width: 3.448275862068966%
+  }
+}
+
+@media screen and (min-width: 8400px) {
+  .artwork {
+    width: 3.33333333%
+  }
+}
+
+@media screen and (min-width: 8700px) {
+  .artwork {
+    width: 3.225806451612903%
+  }
+}
+
+@media screen and (min-width: 9000px) {
+  .artwork {
+    width: 3.125%
+  }
+}
