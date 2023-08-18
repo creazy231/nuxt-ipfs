@@ -14,9 +14,9 @@ You can find more comprehensive details about Static Hosting with Nuxt [here](ht
 
 
 ## The Issue with `/ipfs/`
-As a small example, this is what a link to a file or webpage on IPFS looks like: `https://ipfs.io/ipfs/QmX2PdwoawfEXtRKqkomLRastXTanLa7uaEXdXADqCaDSn`.
+As a small example, this is what a link to a file or webpage on IPFS looks like: `https://ipfs.io/ipfs/Qma1chuT4CzVAQo9dcLNAR5NyAvrFYDWcayiv2NEKRMyEg`.
 
-As evident from this example, a statically hosted webpage would be located in the subdirectory `/ipfs/QmX2PdwoawfEXtRKqkomLRastXTanLa7uaEXdXADqCaDSn`. However, Nuxt employs absolute paths that, in this case, would assume the webpage is accessible via the URL `https://ipfs.io/`, which is not the case, as shown in the above example.
+As evident from this example, a statically hosted webpage would be located in the subdirectory `/ipfs/Qma1chuT4CzVAQo9dcLNAR5NyAvrFYDWcayiv2NEKRMyEg`. However, Nuxt employs absolute paths that, in this case, would assume the webpage is accessible via the URL `https://ipfs.io/`, which is not the case, as shown in the above example.
 
 Now, one might naturally assume that setting the Base URL using the `<base>` tag would suffice. However, for various reasons, that's not the case.
 
@@ -68,7 +68,7 @@ npx nuxi generate
 ... and then upload the `.output/public` directory to IPFS using services like Pinata, for instance.
 
 ## Do Plugins and Modules Work?
-In short - Yes! Based on the example of the [MOCA Fundraiser](https://moca.mypinata.cloud/ipfs/QmX2PdwoawfEXtRKqkomLRastXTanLa7uaEXdXADqCaDSn) project, I've tested the following modules and can confirm that they work seamlessly:
+In short - Yes! Based on the example of the [MOCA Fundraiser](https://ipfs.qwellcode.de/ipfs/Qma1chuT4CzVAQo9dcLNAR5NyAvrFYDWcayiv2NEKRMyEg) project, I've tested the following modules and can confirm that they work seamlessly:
 
 ```
 @nuxtjs/tailwindcss
@@ -79,7 +79,7 @@ nuxt-seo-kit (with some restrictions due to SSR/SSG)
 
 Naturally, many other modules and plugins will also work. This list simply highlights the ones I've utilized in this case.
 
-View the MOCA Fundraiser Collection hosted on IPFS using Nuxt: https://moca.mypinata.cloud/ipfs/QmX2PdwoawfEXtRKqkomLRastXTanLa7uaEXdXADqCaDSn
+View the MOCA Fundraiser Collection hosted on IPFS using Nuxt: https://ipfs.qwellcode.de/ipfs/Qma1chuT4CzVAQo9dcLNAR5NyAvrFYDWcayiv2NEKRMyEg
 
 ## Sample Repository
 GitHub: https://github.com/creazy231/nuxt-ipfs
